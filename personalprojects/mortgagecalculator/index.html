@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	
+	<title>Mortgage Calculator</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Mortgage Widget</h1>
+	</div>
+	<div class="inputimg">
+		<img src="">
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="inputsl inputimg">
+					<div class="inputs">
+						<p> Principal &nbsp &nbsp &nbsp &nbsp &nbsp<input type="number" id="princp" class="inpt">
+							<span class = "sp1">The amount to be borrowed</span>
+						 </p>
+						<p> Time &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <input type="textbox" id="typeOfp" class="	inpt">
+							<span class = "sp2">The type of payment</span>
+						</p>
+						<p> APR  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp   <input type="number" id= "aPrValue"class="inpt">
+							<span class = "sp3">The interest rate</span>
+						</p>
+						<p> Duration of payment &nbsp   <input type="number" id= "dOp" class="inpt">&nbsp
+							<input type="radio" id="opt1" name="radiogroup" value="opt1">&nbsp Months
+							<input type="radio" id="opt2" name="radiogroup" value="opt2">&nbsp Years 
+							<span class= "sp4">The number of months or years</span></p>
+							<!--Always remember to assign the same name value to the radioboxes for it to work well -->
+						<p> Amortization &nbsp&nbsp  <input type="number" id="Answer" class="inpt"><span class = "sp5">The periodic amortization value</span></p>
+					</div>	
+					<input type="submit" value="submit" id="Submit" name="Submit">	
+					<p id="test"></p>
+					<p id="tst"></p>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src = "js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src = "js/myscript.js" ></script>
+</body>
+</html>

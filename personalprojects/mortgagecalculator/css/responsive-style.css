@@ -1,0 +1,103 @@
+@media only screen and (min-width : 0px) and (max-width : 660px) {
+	.countdown li {width:50%;}
+	.countdown {width:100%;}
+	
+}
+
+@media only screen and (max-height: 800px) {
+	
+.containerhome h1 {
+	font-size:64px;
+}
+.containerhome h2 {
+	font-size:20px;
+}
+.countdown span {
+	font-size:30px;
+}
+.countdown {margin-top:30px;}
+
+.logo {width:50px;height:50px;}
+/*.scrolldownhome {margin-top:0;}*/
+
+.subscribes {font-size:50px;}
+.sub-form {margin-top:50px;margin-bottom:30px;}
+
+}
+
+
+
+@media only screen and (max-height: 320px){
+.containerhome {
+	overflow: auto;
+        height: 100% !important;
+        padding-top:50px;
+        padding-bottom:50px;
+}
+
+.countdown{margin-top:10px;}
+.bar{margin-top:10px;}
+
+
+}
+
+@media only screen and (max-height: 480px){
+	
+	.logo {width:34px;height:34px;}
+	.containerhome h1 {
+	font-size:46px;
+	}
+	.containerhome h2 {
+	font-size:16px;
+	}
+	.countdown span {
+	font-size:20px;
+	margin:0;
+	}
+	.scrolldownhome {margin-top:-36px;position:relative;}
+	.scrolldownhome a {position:absolute;left:0;top;0;}
+	.countdown {margin-top:25px;}
+}
+
+
+
+@media only screen and (max-width: 992px)
+{
+.aboutbox {width:100%;margin:0;min-height: 0;}
+.aspace {margin-top:50px;}
+.containerabout h4 {margin-left:0;width:100%;margin-bottom:40px;text-align:center;}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	.aboutp {width:100%;}
+	.services {margin-top:110px;}
+	.servicesp {width:100%;font-size:14px;}
+	.servicesCar {margin-top:60px;}
+	.owl-controls{margin-top:25px !important;}
+	.aboutus {margin-top:110px;}
+	.contacts {margin-top:110px;}
+	.contactp {width:100%;}
+	.containercontact {padding-bottom: 20px;}
+	.subscribes {margin-top:110px;}
+	.subscribep {width:100%;}
+	.sub-form {width:100%;}
+	.bar {width:200px;margin-top:40px;}
+	
+}
+@media only screen and (max-width: 400px)
+{
+	.contactdetails {text-align:center;}
+	.aboutbox i {
+		width:100%;
+		font-size:40px;
+		margin-bottom:30px;
+		margin-top:20px;
+	}
+	
+}
+
+@media only screen and (max-height: 360px){
+.bar {margin-top:25px;}
+}

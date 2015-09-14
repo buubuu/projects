@@ -1,0 +1,26 @@
+body {
+	background: #ccc;
+	color: #000;
+}
+span{
+	color: red;
+	opacity: .6;
+}
+.header{
+	text-align: center;
+}
+.main{
+	margin:0% 6%;
+	padding:20px;
+	text-align: justify;
+	width: 80%;
+}
+.inputsl {
+	border: #ebd06c solid 3px;
+	width: 55%;
+	padding:20px 10px;
+	margin: 0% 23%;
+}
+.inpt{
+	border-radius: 3px;
+}
